@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "Files with 777 permissions are:"
+
+find . -type f -perm 777
