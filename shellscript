@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "Enter the file name:"
+read fname
+
+if find . -type f -name "$fname" -perm 777 | grep -q .
+then
+    echo "$fname has 777 permission"
+else
+    echo "$fname does not have 777 permission"
+fi
