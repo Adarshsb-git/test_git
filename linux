@@ -2,6 +2,8 @@
 
 echo "Files with 777 permissions are:"
 
-///find . -type f -perm 777
+find . -type f -perm 777
 
 echo "i have given 777 permission to patil.sh "
+echo "dont have a permission "
+
