@@ -4,5 +4,6 @@ asset id
 location
 odc
 logout
+session
 bye
 close
